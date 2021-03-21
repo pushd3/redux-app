@@ -8,7 +8,6 @@ export class UsersService {
   constructor(public http: HttpClient) {}
 
   public getUsers() {
-    debugger;
     return this.http.get(`https://entity.getsandbox.com/entities`);
   }
 }

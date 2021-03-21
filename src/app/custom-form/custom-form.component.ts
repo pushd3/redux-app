@@ -24,9 +24,7 @@ export class CustomFormComponent implements OnInit {
         Validators.minLength(4),
       ]),
     });
-
-    debugger
-    
+ 
     this.store.dispatch(fromUsersActions.LoadUsers());
   }
  

@@ -20,7 +20,7 @@ export class UserEffects {
                 })
             ))
     ));
-
+                
     constructor(
         private actions$: Actions,
         private usersService: UsersService
